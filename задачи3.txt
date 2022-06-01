@@ -1,0 +1,15 @@
+4.6
+"use strict";
+let str = 'abcdemlentr';
+alert(str.length);
+
+4.7
+"use strict";
+let str = `a
+ ``b
+ ``c`;
+alert(str);
+
+:'((
+
+4.8
