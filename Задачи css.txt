@@ -1,0 +1,144 @@
+.lw { font-size: 30px; }
+div {
+  margin-bottom: 30px;
+  
+}
+#menu1 {
+  font-family: Arial;
+  font-size: 15px; 
+  color: #0000FF;
+}
+#menu1 a:link, #menu1 a:visited {
+  color: #0000FF;
+  text-decoration: none;
+}
+#menu1 a:hover {
+  color: #FFC0CB;
+  text-decoration: underline;
+}
+#menu1 li {
+  margin-bottom: 7; 
+/* line-height: 2;*/
+}
+
+#menu2 {
+  font-family: Arial;
+  font-size: 12pt; 
+  width: 200px;
+}
+#menu2 a:link, #menu2 a:visited {
+  color: #0000FF;
+  text-decoration: none;
+}
+#menu2  a {
+  display: block;
+}
+#menu2 a:hover {
+  color: #0000FF;
+  font-weight: bold;
+}
+#menu2 li {
+  margin-bottom: 7; 
+  list-style-type: none; 
+  border: 1px solid blue;
+  /*padding: 10px 5px;*/
+  line-height: 30px;
+}
+
+#menu3 {
+  font-family: Arial;
+  font-size: 12pt; 
+  width: 200px;
+}
+#menu3 a:link, #menu3 a:visited {
+  color: #FFFFFF;
+  background-color: #484848;
+  text-decoration: none;
+  padding: 0px 5px;
+  border: 1px solid #484848;
+}
+#menu3  a {
+  display: block; 
+  /*border: 1px solid red; */
+}
+#menu3 a:hover {
+  color: #484848;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+#menu3 li {
+  margin-bottom: 7; 
+  list-style-type: none; 
+ /* border: 1px solid blue;*/
+  line-height: 30px;
+}
+#menu4 {
+  font-family: Arial;
+  font-size: 12pt; 
+  width: 250px;
+}
+#menu4 a:link, #menu4 a:visited {
+  color: #FFFFFF;
+  background-color: #0000FF;
+  text-decoration: none;
+  padding: 0px 5px;
+  border: 1px solid #484848;
+}
+#menu4  a {
+  display: block; 
+  /*border: 1px solid red; */
+}
+#menu4 a:hover, #menu4 a.active {
+  color: #0000FF;
+  background: white url("/html/png.png");
+  text-decoration: none;
+  font-weight: bold;
+}
+#menu4 li {
+  margin-bottom: 7; 
+  list-style-type: none; 
+ /* border: 1px solid blue;*/
+  line-height: 30px;
+}
+
+#menu5 {
+  font-family: Arial;
+  font-size: 15px; 
+  color: #0000FF;
+}
+#menu5 a:link, #menu5 a:visited {
+  color: #0000FF;
+  text-decoration: none;
+}
+#menu5 a:hover, #menu5 a.active {
+  color: red;
+  text-decoration: none;
+  background-color: #484848;
+}
+#menu5 a{
+  display: block ;
+  padding: 5px;
+} 
+#menu5 li {
+ /* display: inline-block; */
+ float: left; 
+ border: 1px solid blue;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.clearfiax {  
+  clear: both 
+}
+
+
+#wrapper {
+  width: 500px;
+  margin: 0px auto  ;
+}
+p.more {
+  
+}
+h2 a{
+  
+}
