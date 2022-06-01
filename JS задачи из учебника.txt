@@ -1,0 +1,107 @@
+Задача 3.5
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Моя первая программа</title>
+    <script>
+     alert = 'Привет, Мир!';
+    </script>
+  </head>
+  <body>
+  моя первая программа
+  </body>
+</html>
+
+
+ "use strict";
+let a=1;
+let b=2;
+let c=3;
+let result=a+b+c;
+alert(result);
+
+3.6
+ "use strict";
+let a=10;
+let b=5;
+let c=a-b;
+alert(c);
+let d=7;
+let result=c+d
+alert(result);
+
+3.7
+20
+
+3.8
+23
+
+3.9
+6
+
+3.10
+9
+
+3.11
+8
+
+3.12
+8
+
+3.13
+25
+
+3.14
+13
+
+3.15
+36
+
+3.16
+4
+
+3.17
+4
+
+3.18
+4
+
+3.19
+2.25
+
+3.20
+"use strict";
+let a = -100;
+alert(a);
+
+3.21
+"use strict";
+let a = 777;
+alert(-a);
+
+
+3.22
+1
+
+3.23
+1024
+
+3.24
+24
+
+3.25
+216
+
+3.26
+48
+
+3.27
+24
+
+3.28
+72
+
+
+
+
