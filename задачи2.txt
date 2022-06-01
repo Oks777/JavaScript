@@ -1,0 +1,24 @@
+4.1
+"use strict";
+let str = '!!!';
+alert(str);
+
+4.2
+"use strict";
+let str1 = 'java';
+let str2 = 'script';
+alert(str1 + str2);
+
+4.3
+"use strict";
+let str1 = 'hello';
+let str2 = 'world';
+alert(str1 +' '+ str2);
+
+4.4
+"use strict";
+let name = 'Оксана';
+let str2 = 'привет, %name%';
+alert(str2 +' '+ %name%);
+
+Тут уже начались ошибки(((
