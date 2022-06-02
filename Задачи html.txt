@@ -2,58 +2,58 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Страница для задач</title>
+<title>Hello</title>
 </head>
 <body>
-<p class="lw">Задачи</p>
+<p class="lw">Г‡Е•Г¤Е•Г·ДЌ</p>
   
   <div id="menu1">
     <ul>
-      <li><a href="">Главная</a></li>
-      <li><a href="">Новости</a></li>
-      <li><a href="">Контакты</a></li>
-      <li><a href="">О компании</a></li>
-      <li><a href="">Как добраться</a></li>
+      <li><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
     </ul>
   </div>
   
     <div id="menu2">
     <ul>
-      <li><a href="">Главная</a></li>
-      <li><a href="">Новости</a></li>
-      <li><a href="">Контакты</a></li>
-      <li><a href="">О компании</a></li>
-      <li><a href="">Как добраться</a></li>
+      <li><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
     </ul>
   </div>
   
    <div id="menu3">
     <ul>
-      <li><a href="">Главная</a></li>
-      <li><a href="">Новости</a></li>
-      <li><a href="">Контакты</a></li>
-      <li><a href="">О компании</a></li>
-      <li><a href="">Как добраться</a></li>
+      <li><a href="">Д‚Г«Е•ГўГ­Е•Л™</a></li>
+      <li><a href="">ГЌГ®ГўГ®Е„Е€ДЌ</a></li>
+      <li><a href="">ДГ®Г­Е€Е•Д™Е€Е±</a></li>
+      <li><a href="">ГЋ Д™Г®Д›ДЏЕ•Г­ДЌДЌ</a></li>
+      <li><a href="">ДЕ•Д™ Г¤Г®ГЎД‘Е•Е€ГјЕ„Л™</a></li>
     </ul>
   </div>
   
   <div id="menu4">
     <ul>
-      <li><a href="">Главная</a></li>
-      <li><a href="" class="active">Новости</a></li>
-      <li><a href="">Контакты</a></li>
-      <li><a href="">О компании</a></li>
-      <li><a href="">Как добраться</a></li>
+      <li><a href="">Д‚Г«Е•ГўГ­Е•Л™</a></li>
+      <li><a href="" class="active">ГЌГ®ГўГ®Е„Е€ДЌ</a></li>
+      <li><a href="">ДГ®Г­Е€Е•Д™Е€Е±</a></li>
+      <li><a href="">ГЋ Д™Г®Д›ДЏЕ•Г­ДЌДЌ</a></li>
+      <li><a href="">ДЕ•Д™ Г¤Г®ГЎД‘Е•Е€ГјЕ„Л™</a></li>
     </ul>
   </div>
 
  <div id="menu5">
     <ul>
-      <li><a href="">Главная</a></li>
-      <li><a href="" class="active">Новости</a></li>
-      <li><a href="">Контакты</a></li>
-      <li><a href="">О компании</a></li>
-      <li><a href="">Как добраться</a></li>
+      <li><a href="">Д‚Г«Е•ГўГ­Е•Л™</a></li>
+      <li><a href="" class="active">ГЌГ®ГўГ®Е„Е€ДЌ</a></li>
+      <li><a href="">ДГ®Г­Е€Е•Д™Е€Е±</a></li>
+      <li><a href="">ГЋ Д™Г®Д›ДЏЕ•Г­ДЌДЌ</a></li>
+      <li><a href="">ДЕ•Д™ Г¤Г®ГЎД‘Е•Е€ГјЕ„Л™</a></li>
     </ul>
      <div class="clearfiax"></div>
   </div>
