@@ -17,8 +17,7 @@ alert(str1 +' '+ str2);
 
 4.4
 "use strict";
-let name = 'Оксана';
-let str2 = 'привет, %name%';
+let name = ;
+let str2 = , %name%';
 alert(str2 +' '+ %name%);
 
-Тут уже начались ошибки(((
