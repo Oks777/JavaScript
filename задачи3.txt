@@ -10,6 +10,3 @@ let str = `a
  ``c`;
 alert(str);
 
-:'((
-
-4.8
