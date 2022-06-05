@@ -5,7 +5,7 @@
 <title>Hello</title>
 </head>
 <body>
-<p class="lw">Çŕäŕ÷č</p>
+<p class="lw"></p>
   
   <div id="menu1">
     <ul>
@@ -29,11 +29,11 @@
   
    <div id="menu3">
     <ul>
-      <li><a href="">Ăëŕâíŕ˙</a></li>
-      <li><a href="">Íîâîńňč</a></li>
-      <li><a href="">Ęîíňŕęňű</a></li>
-      <li><a href="">Î ęîěďŕíčč</a></li>
-      <li><a href="">Ęŕę äîáđŕňüń˙</a></li>
+      <li><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
     </ul>
   </div>
   
