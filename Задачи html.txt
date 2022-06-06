@@ -39,21 +39,21 @@
   
   <div id="menu4">
     <ul>
-      <li><a href="">Ăëŕâíŕ˙</a></li>
-      <li><a href="" class="active">Íîâîńňč</a></li>
-      <li><a href="">Ęîíňŕęňű</a></li>
-      <li><a href="">Î ęîěďŕíčč</a></li>
-      <li><a href="">Ęŕę äîáđŕňüń˙</a></li>
+      <li><a href="">1</a></li>
+      <li><a href="" class="active">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
     </ul>
   </div>
 
  <div id="menu5">
     <ul>
-      <li><a href="">Ăëŕâíŕ˙</a></li>
-      <li><a href="" class="active">Íîâîńňč</a></li>
-      <li><a href="">Ęîíňŕęňű</a></li>
-      <li><a href="">Î ęîěďŕíčč</a></li>
-      <li><a href="">Ęŕę äîáđŕňüń˙</a></li>
+      <li><a href="">1</a></li>
+      <li><a href="" class="active">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
     </ul>
      <div class="clearfiax"></div>
   </div>
