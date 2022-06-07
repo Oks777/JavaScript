@@ -3,6 +3,8 @@
 let str = 'abcdemlentr';
 alert(str.length);
 
+abcdemlentr
+
 4.7
 "use strict";
 let str = `a
@@ -10,3 +12,4 @@ let str = `a
  ``c`;
 alert(str);
 
+`a ``b``c`
