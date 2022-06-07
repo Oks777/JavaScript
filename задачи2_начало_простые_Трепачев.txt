@@ -3,11 +3,15 @@
 let str = '!!!';
 alert(str);
 
+!!!
+
 4.2
 "use strict";
 let str1 = 'java';
 let str2 = 'script';
 alert(str1 + str2);
+
+java script
 
 4.3
 "use strict";
@@ -15,9 +19,12 @@ let str1 = 'hello';
 let str2 = 'world';
 alert(str1 +' '+ str2);
 
+hello world
+
 4.4
 "use strict";
-let name = ;
-let str2 = , %name%';
+let name = Ignat;
+let str2 = 'Hello, %name%';
 alert(str2 +' '+ %name%);
 
+Hello, Ignat
