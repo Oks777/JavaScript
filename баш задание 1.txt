@@ -1,0 +1,127 @@
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ mkdir qa_7 qa_8 qa_9
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ cd qa_7
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ ^C
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ touch text.txt
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ cat > text1.txt
+uyetddh
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ ^C
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ cat > text2.txt^C
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ cat > text2.txt
+
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ touch text3.txt p1.json p2.json
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ mkdir kk kk1 kk2
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ ls -la
+total 8
+drwxr-xr-x 1 user 197121 0 Apr 19 22:31 ./
+drwxr-xr-x 1 user 197121 0 Apr 19 22:10 ../
+drwxr-xr-x 1 user 197121 0 Apr 19 22:31 kk/
+drwxr-xr-x 1 user 197121 0 Apr 19 22:31 kk1/
+drwxr-xr-x 1 user 197121 0 Apr 19 22:31 kk2/
+-rw-r--r-- 1 user 197121 0 Apr 19 22:27 p1.json
+-rw-r--r-- 1 user 197121 0 Apr 19 22:27 p2.json
+-rw-r--r-- 1 user 197121 0 Apr 19 22:13 text.txt
+-rw-r--r-- 1 user 197121 0 Apr 19 22:16 text1.txt
+-rw-r--r-- 1 user 197121 0 Apr 19 22:18 text2.txt
+-rw-r--r-- 1 user 197121 0 Apr 19 22:27 text3.txt
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ vim text.txt
+
+user@iRu MINGW64 /d/КУРС QA/work/qa_7
+$ cd ..
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ mv qa_7/text1.txt qa_7/text2.txt qa_8/text1.txt qa_8/text2.txt
+mv: target 'qa_8/text2.txt' is not a directory
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ mv qa-7/{text1.txt,text2.txt} qa_8
+mv: cannot stat 'qa-7/text1.txt': No such file or directory
+mv: cannot stat 'qa-7/text2.txt': No such file or directory
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ mv qa_7/text1.txt qa_8/text1.txt
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ ^C
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ qa_7/{text2.txt,text2.txt} qa_8
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ qa_7/{text2.txt,text3.txt} qa_8
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ mv qa_7/{text2.txt,text3.txt} qa_8
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ ^C
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ cp qa_7/{p1.json,p2.json} qa_9
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ find text.txt
+find: ‘text.txt’: No such file or directory
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ find . -text.txt
+find: unknown predicate `-text.txt'
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ find . -text
+find: unknown predicate `-text'
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ find . -text.txt
+find: unknown predicate `-text.txt'
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ find / -name p1
+
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ find . -name "*.txt"
+./q1.txt
+./qa.txt
+./qa_1/q11.txt
+./qa_2/q22.txt
+./qa_3/new.txt
+./qa_3/new2.txt
+./qa_3/q99.txt
+./qa_7/text.txt
+./qa_8/text1.txt
+./qa_8/text2.txt
+./qa_8/text3.txt
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ vim text1.txt
+
+user@iRu MINGW64 /d/КУРС QA/work
+$ grep -w 'Обеспечение Качества' text1.txt
+Обеспечение Качества - это совокупность запланированных и систематических процессов и действий поддержки
+
+user@iRu MINGW64 /d/КУРС QA/work
+$
