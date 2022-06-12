@@ -1,15 +1,13 @@
-Задача 3.5
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Моя первая программа</title>
+    <title>Home work</title>
     <script>
-     alert = 'Привет, Мир!';
     </script>
   </head>
   <body>
-  моя первая программа
+  Text
   </body>
 </html>
 
@@ -30,6 +28,9 @@ alert(c);
 let d=7;
 let result=c+d
 alert(result);
+
+
+Result 
 
 3.7
 20
