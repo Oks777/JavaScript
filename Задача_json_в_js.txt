@@ -1,0 +1,17 @@
+Дана JSON строка '["Коля", "Вася", "Петя"]'. Преобразуйте ее в массив JavaScript и выведите на экран элемент "Петя"
+
+
+var name = '["Коля", "Вася", "Петя"]';
+name = JSON.parse(name);
+alert(name[2]); 
+
+
+
+
+Дан объект {a: 'aaa', b: 'bbb'}. Преобразуйте его в JSON.
+
+var obj = {a: 'aaa', b: 'bbb'};
+alert( JSON.stringify(obj, ["a", "b"]));   
+
+
+
