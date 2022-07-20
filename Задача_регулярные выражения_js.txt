@@ -1,0 +1,25 @@
+1. Дана строка 'aa aba abba abbba abbbba abbbbba'. Напишите регулярку, которая найдет строки abba, abbba, abbbba и только их.
+
+'!', 'aa aba abba abbba abbbba abbbbba'.replace(/ab{2,4}a/);
+
+
+
+
+
+
+2.  Дана строка 'aa aba abba abbba abbbba abbbbba'. Напишите регулярку, которая найдет строки вида aba, в которых 'b' встречается менее 3-х раз (включительно).
+
+
+'!', 'aa aba abba abbba abbbba abbbbba'.replace(/ab{0,3}a/);
+
+
+
+3. Дана строка 'aa aba abba abbba abbbba abbbbba'. Напишите регулярку, которая найдет строки вида aba, в которых 'b' встречается более 4-х раз (включительно). 
+
+
+'!', 'aa aba abba abbba abbbba abbbbba'.replace(/ab{4,}a/);
+
+
+
+
+
